@@ -8,6 +8,12 @@ class BookType(DjangoObjectType):
     class Meta:
         model = Book
 
+class Query(graphene.ObjectType):
+    all_books =  graphene.List(BookType)
+
+    def resolve_all_books(self, info, **kwargs):
+        return Book.objects.all()
+
 class InsertBook(graphene.Mutation):
     book = graphene.Field(BookType)
 
