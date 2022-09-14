@@ -20,6 +20,9 @@ In diesem Projekt erfolgt das Festschreiben von Änderungen in einem separaten T
 
 
 Quellen:
+
 - Dajngo mit GraphQL: `https://www.fullstacklabs.co/blog/django-graphene-rest-graphql`
+
+- Django mit GraphQL in docker-compose: `https://towardsdev.com/multi-containerized-django-app-with-postgresql-and-graphql-a-starter-template-that-works-eaa588473882`
 
 - Unittest und Pytest: `https://docs.graphene-python.org/projects/django/en/latest/testing/`
