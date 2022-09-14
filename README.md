@@ -26,3 +26,5 @@ Quellen:
 - Django mit GraphQL in docker-compose: `https://towardsdev.com/multi-containerized-django-app-with-postgresql-and-graphql-a-starter-template-that-works-eaa588473882`
 
 - Unittest und Pytest: `https://docs.graphene-python.org/projects/django/en/latest/testing/`
+
+- Graphene Doku: `https://buildmedia.readthedocs.org/media/pdf/graphene-python/stable/graphene-python.pdf`
