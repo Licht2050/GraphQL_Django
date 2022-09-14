@@ -12,7 +12,7 @@ Zum Starten des Projekts müssen Docker und Docker-Compose installiert sein. Man
 
 Graphiql wird hier als GraphQL-Client verwendet. Es kann direkt im Browser wie folgt aufrufen werden: `http://127.0.0.1:8000/graphql`
 
-## Änderungen vornehmen
+## Änderungen im Modul vornehmen
 
 In Django können Moduländerungen (wie das Hinzufügen eines neuen Felds oder das Entfernen eines Moduls) mit dem Befehl `migrations` angewendet werden.
 
