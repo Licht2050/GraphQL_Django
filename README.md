@@ -12,7 +12,7 @@ Zum Starten des Projekts müssen Docker und Docker-Compose installiert sein. Man
 
 Graphiql wird hier als GraphQL-Client verwendet. Es kann direkt im Browser wie folgt aufrufen werden: `http://127.0.0.1:8000/graphql`
 
-## Änderungen im Modul vornehmen
+## Änderungen im Modul vornehmen<a name="aenderung"></a>
 
 In Django können Moduländerungen (wie das Hinzufügen eines neuen Felds oder das Entfernen eines Moduls) mit dem Befehl `migrations` angewendet werden.
 
@@ -33,4 +33,4 @@ Quellen:
 
 In diesem Projekt wird das Testen von Client-Anfragen mit Hilfe von Snapshotstest durchgeführt. In Django wird der Test mit dem folgenden Befehl durchgeführt und für weitere Informationen folgen Sie der [Django-Website](https://docs.djangoproject.com/en/4.1/topics/testing/overview/): `python manage.py test`
 
-Wie im vorherigen [Abschnitt](änderungen-im-modul-vornehmen) erläutert, kann der Test nur durchgeführt werden, wenn sie sich im Container befinden.
+Wie im vorherigen [Abschnitt](#aenderung) erläutert, kann der Test nur durchgeführt werden, wenn sie sich im Container befinden.
