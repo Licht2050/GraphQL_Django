@@ -14,9 +14,10 @@ class Author(models.Model):
 
 class Book(models.Model):
 
-    title = models.CharField(max_length=100)
+    titel = models.CharField(max_length=100)
     authors = models.ManyToManyField(Author, blank=True)
+  
 
 
     def __str__(self):
-        return self.title
+        return self.titel
