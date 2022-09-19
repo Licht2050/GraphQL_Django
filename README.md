@@ -28,3 +28,7 @@ Quellen:
 - Unittest und Pytest: `https://docs.graphene-python.org/projects/django/en/latest/testing/`
 
 - Graphene Doku: `https://buildmedia.readthedocs.org/media/pdf/graphene-python/stable/graphene-python.pdf`
+
+## Snapshottest durchführen
+
+In diesem Projekt wird das Testen von Client-Anfragen mit Hilfe von Snapshotstest durchgeführt. In Django wird der Test mit dem folgenden Befehl durchgeführt und für weitere Informationen folgen Sie der [Django-Website](https://docs.djangoproject.com/en/4.1/topics/testing/overview/):
